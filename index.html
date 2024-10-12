@@ -7,68 +7,83 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" crossorigin href="fonts.css" />
-    <link rel="stylesheet" type="text/css" crossorigin href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 
+    <link rel="stylesheet" type="text/css" crossorigin href="fonts.css"/>
+    <link rel="stylesheet" type="text/css" crossorigin href="styles.css"/>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body class="nunito font-body full-w full-h m0 overflow-y-scroll flex flex-column">
-    <header>
-        <nav>
-            <a href="https://trusted.properties"><span class="logo logo-trusted lato-bold">Trusted</span><span class="logo logo-properties lato-regular">Properties</span></a>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <a href="https://trusted.properties"><span class="logo logo-trusted lato-bold">Trusted</span><span
+                class="logo logo-properties lato-regular">Properties</span></a>
+    </nav>
+</header>
 
-    <main class="full-h overflow-y-scroll scroll-snap">
-        <article id="landing" class="flex full-w full-h justify-center items-center scroll-align-start">
-            <section class="flex flex-column w-750">
-                <h1 class="lato-bold mt0 text-center">COMING SOON</h1>
-                <h3 class="nunito font-h3">Don't Gamble on Your Next Home.</h3>
-                <p>Five photos and a 15-minute viewing is all you get to decide your next home. <b>We want to change that</b>.</p>
-                <p>Trusted Properties allows tenants to review and rate rentals and their landlord/managing agency, helping you to make informed decisions before signing your next tenancy agreement.</p>
+<main class="full-h overflow-y-scroll scroll-snap">
+    <article id="landing" class="flex full-w full-h justify-center items-center scroll-align-start">
+        <section class="flex flex-column w-850">
+            <h1 class="lato-bold mt0 text-center">COMING SOON</h1>
+            <h3 class="nunito font-h3">Don't Gamble on Your Next Home.</h3>
+            <p>Five photos and a 15-minute viewing is all you get to decide your next home. <b>We want to change
+                that</b>.</p>
+            <p>Trusted Properties allows tenants to review and rate rentals and their landlord/managing agency, helping
+                you to make informed decisions before signing your next tenancy agreement.</p>
 
-                <br/>
 
-                <div class="sub-form-container">
-                    <form class="full-w">
-<!--                        The sign up page https://mdbootstrap.com/docs/standard/getting-started/installation/-->
-                        <p>We're currently building the platform. Sign up now to be notified when it's ready.</p>
+            <div class="sub-form-container container">
+                <form class="full-w">
+                    <!--                        The sign up page https://mdbootstrap.com/docs/standard/getting-started/installation/-->
+                    <p>We're currently building the platform. Sign up now to be notified when it's ready.</p>
 
-                        <div class="input-group">
-                            <div class="form-outline" data-mdb-input-init>
-                                <input type="email" id="email" class="form-control" />
-                                <label class="form-label" for="email">Enter your email</label>
+                    <div class="level">
+                        <div class="level-item">
+                            <div class="flex full-w field has-addons">
+                                <div class="flex1 control has-icons-left has-icons-right">
+                                    <input class="input is-medium" type="email" placeholder="Enter your email">
+                                    <span class="icon is-small is-left">
+                                      <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-small is-right">
+                                      <i class="fas fa-exclamation-triangle"></i>
+                                    </span>
+                                </div>
+                                <div class="control">
+                                    <button class="button is-medium">Sign Up Now</button>
+                                </div>
                             </div>
-                            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-                                Sign Up Now
-                            </button>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
+            </div>
 
-                <div class="text-center">
-                    <p>or</p>
-                    <a href="#review">Leave a Review Now</a>
-                </div>
-            </section>
-        </article>
+            <div class="text-center">
+                <p>or</p>
+                <a href="#review">Leave a Review Now</a>
+            </div>
+        </section>
+    </article>
 
-        <article id="review" class="full-w full-h flex flex-column items-center scroll-align-start">
-            <section class="flex flex-column w-750">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScro4qah92sywcyrziLMTNQWt03QrelBd09uclSCpCV_Qtv7Q/viewform?embedded=true">Loading review form…</iframe>
-            </section>
-        </article>
-    </main>
+    <article id="review" class="full-w full-h flex flex-column items-center scroll-align-start">
+        <section class="flex flex-column w-850">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScro4qah92sywcyrziLMTNQWt03QrelBd09uclSCpCV_Qtv7Q/viewform?embedded=true">
+                Loading review form…
+            </iframe>
+        </section>
+    </article>
+</main>
 
-    <footer class="flex">
-        <div class="item">
-            <a href="mailto:hello@trusted.properties">Contact Us</a>
-        </div>
-    </footer>
+<footer class="flex">
+    <div class="item">
+        <a href="mailto:hello@trusted.properties">Contact Us</a>
+    </div>
+</footer>
 
 </body>
 </html>

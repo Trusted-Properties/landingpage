@@ -84,12 +84,6 @@ nav {
     scroll-behavior: smooth;
 }
 
-.w-750 {
-    width: 750px;
-    min-width: 750px;
-    max-width: 750px;
-}
-
 .justify-center {
     justify-content: center;
 }
@@ -106,6 +100,12 @@ nav {
     text-align: center;
 }
 
+.w-850 {
+    width: 850px;
+    min-width: 850px;
+    max-width: 850px;
+}
+
 section {
     padding: 5rem;
     background-color: var(--light-bg-brick);
@@ -115,7 +115,7 @@ section {
 
 article#landing {
     h1 {
-        font-size: 5.00rem;
+        font-size: 4.50rem;
         letter-spacing: 0.75rem;
         margin-bottom: 0.4rem;
     }
