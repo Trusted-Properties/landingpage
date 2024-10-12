@@ -28,7 +28,7 @@
 body {
     background:
         /*url('pexels-shtefutsa-18004076.jpg')*/
-        url('bg.jpg')
+        url('public/bg.jpg')
         center center/cover
         no-repeat
         fixed
