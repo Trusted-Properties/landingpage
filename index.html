@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="full-w full-h scroll-smooth">
+<html lang="en" class="full-w full-h scroll-smooth" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <title>Trusted Properties - Coming Soon</title>
@@ -11,51 +11,51 @@
           rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <!--    <script src="https://kit.fontawesome.com/63cec12e4d.js" crossorigin="anonymous"></script>-->
 
     <link rel="stylesheet" type="text/css" crossorigin href="fonts.css"/>
+    <!-- place this after Bulma -->
     <link rel="stylesheet" type="text/css" crossorigin href="styles.css"/>
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body class="nunito font-body full-w full-h m0 flex flex-column">
+<body class="nunito font-body full-h m0 flex flex-column">
 <header>
-    <nav>
-        <a href="https://trusted.properties"><span class="logo logo-trusted lato-bold">Trusted</span><span
-                class="logo logo-properties lato-regular">Properties</span></a>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand items-center">
+            <a href="https://trusted.properties"><span class="lato-bold">Trusted Properties</span></a>
+        </div>
     </nav>
 </header>
 
 <main class="full-h overflow-y-scroll scroll-snap">
-    <article id="landing" class="flex full-w full-h justify-center items-center scroll-align-start">
-        <section class="flex flex-column w-850">
-            <h1 class="lato-bold mt0 text-center">COMING SOON</h1>
-            <h3 class="nunito font-h3">Don't Gamble on Your Next Home.</h3>
-            <p>Five photos and a 15-minute viewing is all you get to decide your next home. <b>We want to change
-                that</b>.</p>
-            <p>Trusted Properties allows tenants to review and rate rentals and their landlord/managing agency, helping
-                you to make informed decisions before signing your next tenancy agreement.</p>
+    <article id="landing" class="flex flex-column items-center scroll-align-start">
+        <div class="container is-max-desktop flex flex-column">
+            <section class="block">
+                <h1 class="lato-bold mt0 text-center">COMING SOON</h1>
+                <h3 class="nunito font-h3">Don't Gamble on Your Next Home.</h3>
+                <p class="block">Five photos and a 15-minute viewing is all you get to decide your next home. <b>We want
+                    to change
+                    that</b>.</p>
+                <p class="block">Trusted Properties allows tenants to review and rate rentals and their
+                    landlord/managing agency, helping
+                    you to make informed decisions before signing your next tenancy agreement.</p>
+            </section>
 
-
-            <div class="sub-form-container container">
+            <div class="sub-form-container flex0 container block">
                 <form class="full-w">
                     <!--                        The sign up page https://mdbootstrap.com/docs/standard/getting-started/installation/-->
-                    <p>We're currently building the platform. Sign up now to be notified when it's ready.</p>
+                    <p class="block">We're currently building the platform. Sign up now to be notified when it's
+                        ready.</p>
 
-                    <div class="level">
-                        <div class="level-item">
-                            <div class="flex full-w field has-addons">
-                                <div class="flex1 control has-icons-left has-icons-right">
-                                    <input class="input is-medium" type="email" placeholder="Enter your email">
-                                    <span class="icon is-small is-left">
-                                      <i class="fas fa-envelope"></i>
-                                    </span>
-                                    <span class="icon is-small is-right">
-                                      <i class="fas fa-exclamation-triangle"></i>
-                                    </span>
+                    <div class="field is-horizontal m-2">
+                        <div class="field-body">
+                            <div class="field has-addons">
+                                <div class="control is-expanded">
+                                    <input class="input" type="email" placeholder="Enter your email">
                                 </div>
                                 <div class="control">
-                                    <button class="button is-medium">Sign Up Now</button>
+                                    <button class="button">Sign Up Now</button>
                                 </div>
                             </div>
                         </div>
@@ -63,15 +63,15 @@
                 </form>
             </div>
 
-            <div class="text-center">
-                <p>or</p>
-                <a href="#review">Leave a Review Now</a>
+            <div class="text-center block">
+                <p class="block">or</p>
+                <a class="button" href="#review">Leave a Review Now</a>
             </div>
-        </section>
+        </div>
     </article>
 
-    <article id="review" class="full-w full-h flex flex-column items-center scroll-align-start">
-        <section class="flex flex-column w-850">
+    <article id="review" class="container full-h scroll-align-start">
+        <section class="flex flex-column">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScro4qah92sywcyrziLMTNQWt03QrelBd09uclSCpCV_Qtv7Q/viewform?embedded=true">
                 Loading review form…
             </iframe>
@@ -81,7 +81,7 @@
 
 <footer class="flex">
     <div class="item">
-        <a href="mailto:hello@trusted.properties">Contact Us</a>
+        <a class="button" href="mailto:hello@trusted.properties">Contact Us</a>
     </div>
 </footer>
 
